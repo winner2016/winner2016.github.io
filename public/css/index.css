@@ -6,4 +6,9 @@
   .member .member_photo {
     width: 150px;
     height: 150px;
-    border-radius: 50%; }
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: opacity .5s ease; }
+    .member .member_photo:hover {
+      opacity: 1;
+      transition: opacity .5s ease; }

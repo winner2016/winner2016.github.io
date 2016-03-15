@@ -7,5 +7,11 @@
         width: 150px;
         height: 150px;
         border-radius: 50%;
+        opacity: 0.8;    
+        transition: opacity .5s ease;    
+        &:hover{     
+            opacity: 1;       
+            transition: opacity .5s ease; 
+        }
     }
 }
