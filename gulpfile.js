@@ -17,7 +17,7 @@ gulp.task('sass', function() {
 
 gulp.task('watch', function() {
     gulp.watch('public/scss/*.scss', ['sass'])
-    gulp.watch(['*.html', 'views/*.html', 'public/css/*.css', 'public/js/*.js']).on('change', reload);
+    gulp.watch(['**/*.html', 'views/*.html', 'public/css/*.css', 'public/js/*.js']).on('change', reload);
 });
 
 gulp.task('default', ['server', 'sass', 'watch']);
