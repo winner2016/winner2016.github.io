@@ -50,7 +50,8 @@ header {
 
 .first {
   padding: 250px 0 250px 100px;
-  background: #fff url(../img/task_bg.jpg) 0 0 no-repeat; }
+  background: #fff url(../img/task_bg.jpg) 0 0 no-repeat;
+  background-size: cover; }
   .first a {
     color: #fff;
     background: red;
