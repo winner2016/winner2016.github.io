@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 header,
 main,
 footer {
@@ -7,18 +14,14 @@ body {
   font-family: 'microsoft yahei';
   min-width: 1200px; }
 
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-img {
-  border: none; }
+input {
+  outline: none; }
 
 a {
   text-decoration: none; }
+
+ul {
+  list-style-type: none; }
 
 .fl {
   float: left; }
@@ -31,46 +34,90 @@ a {
   overflow: hidden; }
 
 header {
-  padding: 10px; }
+  padding: 10px 60px 0; }
   header a {
     display: inline-block; }
     header a img {
       vertical-align: middle; }
-  header h3 {
-    display: inline-block; }
+  header h1 {
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 20px; }
 
 .nav {
   list-style: none; }
   .nav li {
     float: left; }
-  .nav a {
-    padding: 5px; }
-    .nav a:hover {
-      border-bottom: 1px solid #000; }
+    .nav li a {
+      color: #000;
+      font-size: 15px;
+      padding: 6px 15px 12px;
+      margin-left: 5px;
+      margin-right: 5px; }
+      .nav li a:hover {
+        border-bottom: 4px solid #E84E4C;
+        color: #E84E4C; }
+  .nav li:first-of-type a {
+    border-bottom: 4px solid #E84E4C;
+    color: #E84E4C; }
 
 .first {
+  color: #fff;
   padding: 250px 0 250px 100px;
-  background: #fff url(../img/task_bg.jpg) 0 0 no-repeat;
+  background: #fff url(../img/first_pic.png) 0 0 no-repeat;
   background-size: cover; }
+  .first h2 {
+    font-size: 60px;
+    font-weight: normal; }
+  .first p {
+    font-size: 22px; }
   .first a {
     color: #fff;
-    background: red;
+    font-size: 26px;
+    background: #E84E4C;
     display: inline-block;
     margin-top: 50px;
-    padding: 10px 30px; }
+    padding: 12px 90px; }
 
-.second div {
-  width: 24.7%;
-  display: inline-block;
-  text-align: center; }
-  .second div:not(:first-of-type) p {
-    border-left: 1px solid #000; }
+.second {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+  .second div {
+    width: 24.7%;
+    display: inline-block;
+    text-align: center; }
+    .second div:not(:first-of-type) p {
+      border-left: 1px solid #000; }
 
 .third {
   text-align: center;
-  background-color: #eee;
+  background-color: #EDEDED;
   padding: 80px 150px; }
   .third h2 {
     font-size: 40px;
     font-weight: normal;
     margin-top: 20px; }
+
+.forth {
+  height: 400px;
+  text-align: center;
+  background: url(../img/second_pic.jpg) 0 0 no-repeat;
+  background-size: cover; }
+
+.fifth {
+  height: 600px;
+  background-color: #eee; }
+  .fifth .img_list {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+    .fifth .img_list li {
+      float: left;
+      width: 25%;
+      text-align: center; }
+    .fifth .img_list a {
+      display: inline-block;
+      margin-top: 100px; }
+    .fifth .img_list img {
+      border: 1px solid #000;
+      padding: 5px; }
