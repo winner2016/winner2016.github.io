@@ -8,4 +8,3 @@ $ cnpm install
 $ gulp
 ```
 等待5s左右浏览器自动打开localhost:3000
-add something wyp
