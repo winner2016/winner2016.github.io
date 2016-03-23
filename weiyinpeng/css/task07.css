@@ -31,5 +31,70 @@ section .content{position: relative;}
 section .content .shugang{background: url(../../public/img/shugang.jpg) no-repeat;position: absolute;right:0;top: 90px;width:2px;height:50px;}
 section .section2-top{width:100%;height:270px;background: rgb(237,237,236);padding-top: 90px;}
 section .section2-top .icon{background: url(../../public/img/318.png) no-repeat;width:92px;height:92px;}
-section .pic{width:100%;height:450px;background: url(../../public/img/second_pic.jpg) no-repeat;}
+section .pic{width:100%;height:330px;background: url(../../public/img/second_pic.jpg) no-repeat;}
 section .section2-top .content{text-align: center;height:180px;line-height: 180px;font-family: "Regular";font-size: 53.6px;}
+section .activity-container{width:100%;height:500px;background: rgb(237,237,236);padding-top:100px;}
+section .activity-container .activity{width:1000px;height:400px;margin:0 auto;text-align: center;}
+section .activity-container .show{width:200px;height:300px;background-position: cover;}
+section .activity-container .act1 .show{background: url(../../public/img/shanghai_01.png) no-repeat;}
+section .activity-container .act2 .show{background: url(../../public/img/shanghai_02.png) no-repeat;}
+section .activity-container .act3 .show{background: url(../../public/img/shanghai_03.png) no-repeat;}
+section .activity-container .act4 .show{background: url(../../public/img/shanghai_04.jpg) no-repeat;}
+section .activity-container .act{float:left;width:212px;margin-right: 40px;}
+section .activity-container .show-container{border:1px solid rgb(217,213,213);padding:14px 5px;background:#fff;}
+section .activity-container .act4{margin-right: 0;}
+section .activity-container .text{font-size: 14px;}
+section .show-box{height:560px;}
+section .show-box .pic{width:66.66%;height:560px;background: url(../../public/img/third_pic.jpg) no-repeat;}
+section .show-box>div{float:left;}
+section .show-box .content{width:33.33%;height:400px;padding-top:160px;text-align: center;}
+section .show-box .content .title{font-size: 30px;}
+section .show-box .content .title .st{color:red;}
+section .show-box .content .text{font-family: 宋体;font-size: 12px;width:290px;margin:0 auto;text-align: left;line-height:30px }
+section .show-box .content .more{width:107px;height:35px;border:1px solid rgb(231,79,71);background: #fff;color:rgb(231,79,71);font-size: 12px;margin-top: 50px;}
+section .about-box{height:520px;width:100%;}
+section .about-box .about{width:33.33%;float:left;text-align: center;height:350px;padding-top:170px;font-family: 黑体;font-size: 21px;line-height: 30px;}
+section .about-box .more{width:170px;height:44px;border:1px solid #fff;background:rgb(231,79,71);color:#fff;font-family: 黑体;font-size:21px;line-height: 24px;}
+section .about-box .icon{width:31px;height:3px;background: url(../../public/img/gang_white.png);margin:25px auto;}
+section .about-box .about1{background:rgb(231,79,71);color:#fff;}
+section .about-box .about2{color:rgb(231,79,71);color:rgb(52,50,50);}
+section .about-box .about2 .icon{background: url(../../public/img/gang_gray.png)}
+section .about-box .about2 .more{background:#fff;border:1px solid rgb(231,79,71);color:rgb(231,79,71);}
+section .about-box .about3{background: url(../../public/img/about_pic.jpg);}
+section form{height:630px;padding-top: 120px;text-align: center;}
+section form .form-top{height:180px;}
+section form .form-top .text{width:420px;margin:0 auto;font-size: 12px;color:rgb(203,203,203);line-height: 18px;}
+section .form-top .icon{width:31px;height:3px;background: url(../../public/img/henggang_red.png);margin-top:12px;margin-bottom: 15px;}
+section .form-top .title{font-family: 黑体;font-size: 21px;line-height: 30px;}
+section form .form{width:1000px;height:280px;margin:0 auto;text-align: left;}
+section form .form .form-left,section form .form .form-right{float:left;}
+section form .form .form-left{width:300px;margin-right: 60px;}
+section form .form .form-left .title{font-size: 14px;font-family: 黑体;}
+section form .form .form-left .text{font-size: 12px;font-family: 宋体;margin-top: 30px;line-height: 21px;color:rgb(144,144,144);}
+section form .form .form-left .icon{font-size:12px;float:right;background: url(../../public/img/xiala_gray.png) left center  no-repeat;margin-top:5px;padding-left: 20px;height:12px;line-height: 10px;}
+section form .form .form-left .content{margin-bottom: 40px;}
+section form .form .form-right{width:640px;}
+section form .form .form-right>div input{width: 290px;height: 40px;background:rgb(231,231,231) ;padding-left: 18px;}
+section form .form .form-right>div .input1,section form .form .form-right>div .input3{margin-right: 18px;margin-bottom: 14px;}
+section form .form .form-right textarea{background:rgb(231,231,231);width:620px;height:120px;padding-left:20px;padding-top: 20px;}
+section form .form .form-right input[type="submit"]{width:640px;height:40px;background:rgb(231,231,231) ;text-align: center;font-size:14px;font-family: 黑体;margin-top: 13px; }
+section.section3{height: 270px;background:rgb(50,53,62);padding-top: 90px;text-align: center;color:#fff;}
+section.section3 .content{margin:0 auto;width:510px;height:190;}
+section.section3 .content .title{font-family: 黑体;font-size: 21px;line-height: 48px;}
+section.section3 .content .text{font-size: 12px;line-height: 18px;}
+section.section3 .content{}
+section.section3 .content input{float: left;}
+section.section3 .content input[type="text"]{width:420px;height: 41px;padding-left:10px;line-height: 40px;font-size: 14px;line-height: 27px;}
+section.section3 .content input[type="button"]{width:80px;height: 41px;color:rgb(233,233,233);font-size: 14px;line-height: 27px;background: rgb(104,97,104);}
+section.section3 .content .search{margin:30px 0;height: 41px;}
+section.section3 .icons{width:190px;height:54px;margin:0 auto;}
+section.section3 .icons .icon{width:25px;height:25px;float: left;margin-right: 28px;}
+section.section3 .icons .icon1{background: url(../../public/img/qq.png) no-repeat;}
+section.section3 .icons .icon2{background: url(../../public/img/sina.png) no-repeat;}
+section.section3 .icons .icon3{background: url(../../public/img/bird.png) no-repeat;}
+section.section3 .icons .icon4{background: url(../../public/img/global.png) no-repeat;margin-right: 0;}
+footer{height: 58px;background: rgb(47,48,56);}
+footer .footer-left,footer .footer-right{font-size: 12px;font-family: 宋体;color:#fff;line-height: 58px;margin-left:100px;float: left;}
+footer .footer-right{float: right;margin-right: 40px;}
+
+
